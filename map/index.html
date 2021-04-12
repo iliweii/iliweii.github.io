@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>看飞碟 | 下界交通系统路线图</title>
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.subwayMap-0.5.3.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/Diamond_Ore_JE3_BE3.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <br>
+        <h1>看飞碟●下界交通系统路线图</h1>
+        <h5>群号：894671570。更新地图请在群中留言</h5>
+    </div>
+    <div class="map-area">
+        <div class="subway-map" data-columns="10" data-rows="26" data-cellSize="70" data-legendId="legend"
+            data-textClass="text" data-gridNumbers="false" data-grid="false" data-lineWidth="10">
+
+            <!-- 现行坐标转换规则： -->
+            <!-- (-z坐标/100+1)*5     作为data-coords第一个参数 -->
+            <!-- (x坐标+300)/20 作为data-coords第二个参数 -->
+            <ul data-color="#007bff" data-label="下界交通主干道">
+                <li data-coords="9.7,2.05" data-marker="interchange" data-labelPos="S">The World305蜘蛛刷怪笼</li>
+                <li data-coords="3.65,2.05" data-marker="station"></li>
+                <li data-coords="2.65,3.05" data-dir="W"></li>
+                <li data-coords="2.65,10.95" data-marker="station" data-labelPos="w">UW路西</li>
+                <li data-coords="2.65,13.1" data-marker="station" data-labelPos="W">尖啸路西</li>
+                <li data-coords="2.65,15.9" data-marker="station" data-labelPos="W">洛天路西</li>
+                <li data-coords="2.65,23.7" data-marker="station"></li>
+                <li data-coords="3.4,24.7" data-dir="S" data-marker="interchange" data-labelPos="E">挂机基地</li>
+            </ul>
+
+            <ul data-color="#28a745" data-label="US路">
+                <li data-coords="2.65,10.95" data-marker="station"></li>
+                <li data-coords="4.95,10.95" data-marker="station"></li>
+                <li data-coords="5.45,10.95" data-marker="interchange" data-labelPos="S">UnkemptSphere64'home</li>
+                <li data-coords="5.5,10.95" data-marker="station"></li>
+                <li data-coords="6.4,10" data-dir="E" data-marker="station" data-labelPos="E">某冰岛</li>
+            </ul>
+
+            <ul data-color="#17a2b8" data-label="Wangs路">
+                <li data-coords="4.95,10.95" data-marker="station"></li>
+                <li data-coords="4.95,10.65" data-marker="interchange" data-labelPos="N">Wangs121 水中小屋</li>
+            </ul>
+
+            <ul data-color="#dc3545" data-label="尖啸路">
+                <li data-coords="2.65,13.1" data-marker="station"></li>
+                <li data-coords="2.9,13.1" data-marker="station"></li>
+                <li data-coords="6.9,13.1" data-marker="interchange" data-labelPos="E">尖啸之门</li>
+            </ul>
+
+            <ul data-color="pink" data-label="啊妙路">
+                <li data-coords="2.9,13.1" data-marker="station"></li>
+                <li data-coords="2.9,13.05" data-marker="interchange" data-labelPos="N">啊妙的家</li>
+            </ul>
+
+            <ul data-color="#ffc107" data-label="洛天路">
+                <li data-coords="2.65,15.9" data-marker="station"></li>
+                <li data-coords="2.9,15.9" data-marker="interchange" data-labelPos="E">Luotian的交易市场</li>
+            </ul>
+
+        </div>
+        <div id="legend"></div>
+    </div>
+</body>
+
+</html>
