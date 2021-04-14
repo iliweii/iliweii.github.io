@@ -22,3 +22,11 @@ let node = [
 $(function () {
     $(".subway-map").subwayMap({ debug: true });
 })
+
+function x(n) {
+
+}
+
+function z(n) {
+
+}
