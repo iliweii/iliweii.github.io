@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+html {
+    background-image: url(../img/bg-wool-dark.png);
+}
+body {
+    background-image: url(../imgcdn/wallhaven-4dd29m.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.head {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    padding: 0 50px;
+}
+.logo img {
+    height: 42px;
+}
+.head > .inner {
+    height: 70px;
+    background-image: url(../img/bg-wool-dark.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.headnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.headnav > li {
+    list-style: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navlogo {
+    padding: 15px;
+    margin: 0 2px;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+}
+.navlogo2 {
+    padding: 30px;
+    margin: 0 5px;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+}
+.logo1 {
+    background-image: url(../imgcdn/Plains_Grass_Block.png);
+}
+.logo2 {
+    background-image: url(../imgcdn/Book_JE2_BE2.png);
+}
+.logo3 {
+    background-image: url(../imgcdn/Diamond_Pickaxe_JE3_BE3.png);
+}
+.logo4 {
+    background-image: url(../imgcdn/Diamond_Ore_JE3_BE3.png);
+}
+.banner {
+    margin-top: 70px;
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.signs {
+    display: flex;
+    flex-direction: column;
+    min-width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.signs > p {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: #000 2px 2px 1px;
+    margin-top: 30px;
+}
+.sign {
+    display: flex;
+}
+.pixel {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+.color0 {
+    background-color: rgba(0, 0, 0, 0);
+}
+.color1 {
+    background-color: rgba(255, 255, 0, 1);
+}
+.color2 {
+    background-color: rgba(160, 82, 45, 1);
+}
+.color3 {
+    background-color: rgba(139, 69, 19, 1);
+}
+.together {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/bg-wool-dark.png);
+}
+.together .title {
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 48px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.together .con {
+    display: flex;
+    justify-content: center;
+}
+.together .con > img {
+    height: 500px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.foot {
+    margin-top: 80px;
+    background-image: url(../img/bg-wool-dark.png);
+}
+.bottom {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    overflow: hidden;
+}
+.bottom a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.bottom p {
+    margin: 0;
+}
