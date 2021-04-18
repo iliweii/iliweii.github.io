@@ -272,6 +272,30 @@ var kanfeidie = {
                     labelPos: "E"
                 }
             ]
+        },
+        {
+            label: "Hot路",
+            color: "pink",
+            stations: [
+                {
+                    name: "Hot路口",
+                    x: -18,
+                    z: 47,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: "S"
+                },
+                {
+                    name: "HotMinecraft616的家",
+                    x: -18,
+                    z: 16,
+                    repx: false,
+                    repz: false,
+                    marker: "interchange",
+                    labelPos: "E"
+                }
+            ]
         }
     ]
 }
