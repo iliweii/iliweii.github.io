@@ -5,7 +5,7 @@
 
 a {
     text-decoration: none;
-    color: inherit;
+    color          : inherit;
 }
 
 body {
@@ -14,81 +14,93 @@ body {
 }
 
 .header {
-    display: flex;
-    align-items: center;
+    display       : flex;
+    align-items   : center;
     flex-direction: column;
 }
 
 .map-area {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-    /* display: flex; */
-    align-items: center;
+    position      : relative;
+    width         : 80%;
+    margin        : 0 auto;
+    /* display    : flex; */
+    align-items   : center;
     flex-direction: column;
 }
 
 .head {
-    width: 100%;
-    height: auto;
+    width           : 100%;
+    height          : auto;
     background-color: black;
 }
+
 .inner {
-    width: 1200px;
+    width : 1200px;
     margin: 0 auto;
 }
+
 .logo {
     padding: 0 50px;
 }
+
 .logo img {
     height: 42px;
 }
-.head > .inner {
-    height: 70px;
+
+.head>.inner {
+    height          : 70px;
     background-image: url(../../img/bg-wool-dark.png);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-around;
+    align-items     : center;
 }
+
 .headnav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
     justify-content: space-around;
 }
-.headnav > li {
-    list-style: none;
-    font-size: 18px;
-    color: #fff;
-    padding: 5px 50px;
-    display: flex;
+
+.headnav>li {
+    list-style    : none;
+    font-size     : 18px;
+    color         : #fff;
+    padding       : 5px 50px;
+    display       : flex;
     flex-direction: row;
-    align-items: center;
+    align-items   : center;
 }
+
 .navlogo {
-    padding: 15px;
-    margin: 0 2px;
-    display: inline-block;
-    background-size: contain;
+    padding            : 15px;
+    margin             : 0 2px;
+    display            : inline-block;
+    background-size    : contain;
     background-position: center;
 }
+
 .navlogo2 {
-    padding: 30px;
-    margin: 0 5px;
-    display: inline-block;
-    background-size: contain;
+    padding            : 30px;
+    margin             : 0 5px;
+    display            : inline-block;
+    background-size    : contain;
     background-position: center;
 }
+
 .logo1 {
     background-image: url(../../imgcdn/Plains_Grass_Block.png);
 }
+
 .logo2 {
     background-image: url(../../imgcdn/Book_JE2_BE2.png);
 }
+
 .logo3 {
     background-image: url(../../imgcdn/Diamond_Pickaxe_JE3_BE3.png);
 }
+
 .logo4 {
     background-image: url(../../imgcdn/Diamond_Ore_JE3_BE3.png);
 }
@@ -123,4 +135,18 @@ body {
 
 .subway-map span {
     margin: 5px 5px 5px 0;
+}
+
+.foot {
+    width         : 100%;
+    display       : flex;
+    position      : sticky;
+    bottom        : 0;
+    flex-direction: column;
+    align-items   : center;
+    z-index       : 10000;
+}
+
+.foot>span {
+    background-color: #fff;
 }
