@@ -50,22 +50,13 @@ var kanfeidie = {
                     labelPos: false
                 },
                 {
-                    name: "wbreezefeatherw sweetestzzx 合租的家",
-                    x: 0,
-                    z: 42,
-                    repx: false,
-                    repz: 47,
-                    marker: "interchange",
-                    labelPos: "W"
-                },
-                {
                     name: "Luotian的交易市场",
                     x: 18,
                     z: 42,
                     repx: false,
                     repz: 47,
                     marker: "interchange",
-                    labelPos: "E"
+                    labelPos: "S"
                 },
                 {
                     name: false,
@@ -101,7 +92,7 @@ var kanfeidie = {
                     labelPos: "E"
                 },
                 {
-                    name: "Chara angel 的家",
+                    name: "Chara angel 的家✨",
                     x: -241,
                     z: 88,
                     repx: false,
@@ -134,7 +125,7 @@ var kanfeidie = {
                     labelPos: false
                 },
                 {
-                    name: "Wangs121的家",
+                    name: "Wangs121的家✨",
                     x: -91,
                     z: 4,
                     repx: false,
@@ -221,7 +212,7 @@ var kanfeidie = {
                     labelPos: "S"
                 },
                 {
-                    name: "尖啸之门",
+                    name: "尖啸之门✨",
                     x: -38,
                     z: 12,
                     repx: false,
@@ -278,7 +269,7 @@ var kanfeidie = {
             color: "pink",
             stations: [
                 {
-                    name: "Hot路口",
+                    name: "|",
                     x: -18,
                     z: 47,
                     repx: false,
@@ -290,6 +281,57 @@ var kanfeidie = {
                     name: "HotMinecraft616的家",
                     x: -18,
                     z: 16,
+                    repx: false,
+                    repz: false,
+                    marker: "interchange",
+                    labelPos: "E"
+                }
+            ]
+        },
+        {
+            label: "WS路",
+            color: "#333",
+            stations: [
+                {
+                    name: "|",
+                    x: 0,
+                    z: 47,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: "W"
+                },
+                {
+                    name: "wbreezefeatherw sweetestzzx 合租的家",
+                    x: 0,
+                    z: 42,
+                    repx: false,
+                    repz: false,
+                    marker: "interchange",
+                    labelPos: "W"
+                },
+                {
+                    name: false,
+                    x: 0,
+                    z: 19,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: false
+                },
+                {
+                    name: false,
+                    x: 4,
+                    z: 19,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: false
+                },
+                {
+                    name: "啊妙的新家✨",
+                    x: 4,
+                    z: -43,
                     repx: false,
                     repz: false,
                     marker: "interchange",
