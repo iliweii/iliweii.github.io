@@ -1,8 +1,8 @@
 var kanfeidie = {
     class: "subway-map",
     columns: 17,
-    rows: 17,
-    cellSize: 60,
+    rows: 22,
+    cellSize: 90,
     legendId: "legend",
     textClass: "text",
     gridNumbers: "false",
@@ -68,13 +68,22 @@ var kanfeidie = {
                     labelPos: false
                 },
                 {
-                    name: "挂机基地",
-                    x: 94,
-                    z: 32,
+                    name: false,
+                    x: 252,
+                    z: 47,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: false
+                },
+                {
+                    name: "mercy的家",
+                    x: 252,
+                    z: 226,
                     repx: false,
                     repz: false,
                     marker: "interchange",
-                    labelPos: "S"
+                    labelPos: "N"
                 }
             ]
         },
@@ -114,24 +123,6 @@ var kanfeidie = {
                     repz: false,
                     marker: "station",
                     labelPos: "S"
-                },
-                {
-                    name: false,
-                    x: -81,
-                    z: 4,
-                    repx: false,
-                    repz: false,
-                    marker: "station",
-                    labelPos: false
-                },
-                {
-                    name: "Wangs121的家✨",
-                    x: -91,
-                    z: 4,
-                    repx: false,
-                    repz: false,
-                    marker: "interchange",
-                    labelPos: "W"
                 },
                 {
                     name: false,
@@ -219,6 +210,15 @@ var kanfeidie = {
                     repz: false,
                     marker: "interchange",
                     labelPos: "E"
+                },
+                {
+                    name: ".",
+                    x: -38,
+                    z: 3,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: false
                 }
             ]
         },
@@ -265,35 +265,11 @@ var kanfeidie = {
             ]
         },
         {
-            label: "Hot路",
-            color: "pink",
-            stations: [
-                {
-                    name: "|",
-                    x: -18,
-                    z: 47,
-                    repx: false,
-                    repz: false,
-                    marker: "station",
-                    labelPos: "S"
-                },
-                {
-                    name: "HotMinecraft616的家",
-                    x: -18,
-                    z: 16,
-                    repx: false,
-                    repz: false,
-                    marker: "interchange",
-                    labelPos: "E"
-                }
-            ]
-        },
-        {
-            label: "WS路",
+            label: "啊妙路",
             color: "#333",
             stations: [
                 {
-                    name: "|",
+                    name: ".",
                     x: 0,
                     z: 47,
                     repx: false,
@@ -336,6 +312,105 @@ var kanfeidie = {
                     repz: false,
                     marker: "interchange",
                     labelPos: "E"
+                },
+                {
+                    name: "ZZQOG 的家",
+                    x: 7,
+                    z: -8,
+                    repx: 4,
+                    repz: false,
+                    marker: "interchange",
+                    labelPos: "S"
+                }
+            ]
+        },
+        {
+            label: "飞碟路",
+            color: "pink",
+            stations: [
+                {
+                    name: "Wangs121的家✨",
+                    x: -91,
+                    z: 4,
+                    repx: false,
+                    repz: false,
+                    marker: "interchange",
+                    labelPos: "W"
+                },
+                {
+                    name: ".",
+                    x: -81,
+                    z: 4,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: false
+                },
+                {
+                    name: "飞碟出生点",
+                    x: -54,
+                    z: -4,
+                    repx: false,
+                    repz: 3,
+                    marker: "interchange",
+                    labelPos: "E"
+                },
+                {
+                    name: ".",
+                    x: 4,
+                    z: 3,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: false
+                }
+            ]
+        },
+        {
+            label: "扭曲森林路",
+            color: "green",
+            stations: [
+                {
+                    name: "扭曲森林入口",
+                    x: 94,
+                    z: 47,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: "W"
+                },
+                {
+                    name: "挂机基地",
+                    x: 94,
+                    z: 32,
+                    repx: false,
+                    repz: false,
+                    marker: "interchange",
+                    labelPos: "E"
+                }
+            ]
+        },
+        {
+            label: "未知道路",
+            color: "#ccc",
+            stations: [
+                {
+                    name: "未知路口",
+                    x: 120,
+                    z: 47,
+                    repx: false,
+                    repz: false,
+                    marker: "station",
+                    labelPos: "E"
+                },
+                {
+                    name: "不知道谁家",
+                    x: 120,
+                    z: 79,
+                    repx: false,
+                    repz: false,
+                    marker: "interchange",
+                    labelPos: "W"
                 }
             ]
         }
