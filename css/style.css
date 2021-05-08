@@ -25,7 +25,7 @@ body {
     margin: 0 auto;
 }
 .logo {
-    padding: 0 50px;
+    padding: 0 20px;
 }
 .logo img {
     height: 42px;
@@ -48,7 +48,7 @@ body {
     list-style: none;
     font-size: 18px;
     color: #fff;
-    padding: 5px 50px;
+    padding: 5px 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -78,6 +78,9 @@ body {
 }
 .logo4 {
     background-image: url(../imgcdn/Diamond_Ore_JE3_BE3.png);
+}
+.logo5 {
+    background-image: url(../imgcdn/Creeper_Head.png);
 }
 .banner {
     margin-top: 70px;

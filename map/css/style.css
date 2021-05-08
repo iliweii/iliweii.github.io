@@ -40,7 +40,7 @@ body {
 }
 
 .logo {
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 .logo img {
@@ -67,7 +67,7 @@ body {
     list-style    : none;
     font-size     : 18px;
     color         : #fff;
-    padding       : 5px 50px;
+    padding       : 5px 25px;
     display       : flex;
     flex-direction: row;
     align-items   : center;
@@ -103,6 +103,10 @@ body {
 
 .logo4 {
     background-image: url(../../imgcdn/Diamond_Ore_JE3_BE3.png);
+}
+
+.logo5 {
+    background-image: url(../../imgcdn/Creeper_Head.png);
 }
 
 /* The main DIV for the map */
