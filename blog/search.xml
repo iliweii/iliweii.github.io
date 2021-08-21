@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/hello-world/</url>
+    <content><![CDATA[<p>Welcome to Liwei’s blog by <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is my very first post.</p>
+<p>Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If I get any problems when using Hexo, I can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or I can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="想说的话"><a href="#想说的话" class="headerlink" title="想说的话"></a>想说的话</h3><p>云服务器搞过两年，高昂的费用让我望而却步。域名也申请了一大堆，包括<code>iliweii.cn</code>。</p>
+<p>github用了两年，殊不知还有github pages这等神奇的东西。</p>
+<p>后来弄了之后，一直不知道写点什么，一直空着。弄了<code>iliweii.github.io</code>之后，也没体现出他的价值，就这样又过了一年。后来玩起来了MC，发现了看飞碟基岩版我的世界宝藏服务器，就一直用<code>iliweii.github.io</code>宣传服务器用。</p>
+<p>后来的后来，度过了很长一段没服务器可用的时光。这段时光，使用花生壳内网穿透，用自己电脑做服务器。无奈缺点太多，限制太多，曾经的网站都没有重新部署好，就作罢了。</p>
+<p>知道发现了可以用域名指向github pages！！<code>iliweii.cn</code>又有了新用途，哈哈哈。</p>
+<p>重拾博客历程，欢迎来到iw的博客！感谢来讨论交流。</p>
+<h3 id="What-I-want-to-say"><a href="#What-I-want-to-say" class="headerlink" title="What I want to say"></a>What I want to say</h3><p>I have been working on cloud servers for two years, and the high cost has discouraged me. A lot of domain names have also been applied, including <code>iliweii.cn</code>.</p>
+<p>GitHub has been used for two years, but I don’t know that there are other magical things like github pages.</p>
+<p>After I did it, I didn’t know what to write, and I kept it empty. After getting <code>iliweii.github.io</code>, it didn’t reflect his value, so another year passed. Later, I started playing with MC and discovered the Minecraft Treasure Server in the UFO Bedrock Edition. I have been using <code>iliweii.github.io</code> to promote the server.</p>
+<p>Later, there was a long period of time when no server was available. During this period of time, I used the peanut shell intranet penetration and used my own computer as a server. There are too many shortcomings, too many restrictions, and the previous website has not been re-deployed, so just give it up.</p>
+<p>I know that I can use the domain name to point to github pages! ! <code>iliweii.cn</code> has a new purpose again, hahaha.</p>
+<p>Regaining the blogging journey, welcome to iw’s blog! Thanks for discussing and communicating.</p>
+]]></content>
+  </entry>
+</search>
